@@ -8,7 +8,8 @@ var msg = process.env.APP_MSG;
 var response;
 
 app.get('/', function (req, res) {
-
+    
+    response = "This is version 247"+ '\n';
     response = 'Value in the APP_MSG env var is => ' + msg + '\n';
 
     // Read in the secret file
