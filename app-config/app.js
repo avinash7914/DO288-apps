@@ -9,6 +9,8 @@ var response;
 
 app.get('/', function (req, res) {
 
+
+    respone='This is Version 2.0'
     response = 'Value in the APP_MSG env var is => ' + msg + '\n';
 
     // Read in the secret file
